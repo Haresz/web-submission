@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: #446A46 ;
+}
+
+.slider img{
+    width: 70%;
+    margin: 1% 0 0 16%;
+}
+
+nav{
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    padding-top: 1%;
+    background-color: rgba(68, 106, 70, .8);
+}
+
+nav a{
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.cover{
+    display: flex;
+    justify-content: space-around;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: relative;
+    width: auto;
+    padding: 16px;
+    color: rgb(255, 254, 224);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-self: center; 
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: #82A284;
+    color: rgb(0, 0, 0);
+}
+
+.imgSlide {
+    display: none;
+}
+
+.page{
+    margin: 2% 0 0 48% ;
+}
+
+.page .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border-radius: 50%;
+    margin-bottom: 2%;
+}
+
+.page .active,
+.page .dot:hover {
+    background-color: black;
+}
+
+
+.card{
+    margin: 2%;
+    padding: 2%;
+    box-shadow: 0 0 4px 4px  #82A284;
+}
+
+.card p{
+    margin:2px 2% ;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    margin: 2% auto;
+}
+
+.img img{
+    width: 32%;
+    margin: 4px;
+}
+
+.FaktaUnik{
+    margin: 2% 0;
+    padding: 2%;
+    text-align: center;
+    background-color: #446A46;
+}
+
+.FaktaUnik img{
+    width: 40% ;
+    border-radius: 8%;
+    margin: 2% ;
+}
+
+.FaktaUnik section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.FaktaUnik .Fakta{
+    width: 50%;
+}
+
+.Fakta h1 {
+    padding: 10px;
+}
+
+.Wisata h1{
+    text-align: center;
+}
+
+.Wisata .wisataSlide{
+    margin-top: 28px;
+}
+
+.wisataSlide h3{
+    margin-bottom: 18px ;
+}
+
+.Wisata img{
+    width: 18%;
+    margin: auto ;
+}
+
+
+.Wisata .wisataSlide{
+    text-align: center;
+}
+
+.Wisata .wisataSlide p{
+    padding: 8px 0 ;
+}
+
+.Profil{
+    margin-bottom: -10px;
+}
+
+.Profil h1{
+    font-size: 30px;
+}
+
+.Profil h3{
+    font-weight: normal;
+}
+
+footer{
+    background-color: #82A284;
+    padding: 8px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+

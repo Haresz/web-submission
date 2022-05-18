@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Jepara</title>
+</head>
+<body>
+    <Header>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Sejarah">Sejarah</a></li>
+                <li><a href="#FaktaUnik">Fakta Unik</a></li>
+                <li><a href="#Wisata">Wisata</a></li>
+                <li><a href="#Profil">Profil</a></li>
+            </ul>
+        </nav>
+        <div class="slider">
+            <div class="cover">
+                <a class="prev" onClick="nextslide(-1)">&#10094;</a>
+                <div class="conten">
+                    <div class="imgSlide fade intro">
+                        <img src="assets/img/jepara0.svg" alt="">
+                    </div>
+                    <div class="imgSlide fade">
+                        <img src="assets/img/jepara1.svg" alt="">
+                    </div>
+                    <div class="imgSlide fade">
+                        <img src="assets/img/jepara2.svg" alt="">
+                    </div>
+                    <div class="imgSlide fade">
+                        <img src="assets/img/jepara3.svg" alt="">
+                    </div>
+                </div>
+                <a class="next" onClick="nextslide(1)">&#10095;</a> 
+            </div>
+            
+            <div class="page">
+                <span class="dot" onClick="dotslide(1)"></span>
+                <span class="dot" onClick="dotslide(2)"></span>
+                <span class="dot" onClick="dotslide(3)"></span>
+                <span class="dot" onClick="dotslide(4)"></span>
+            </div>
+        </div>
+    </Header>
+    <main>
+        <article id="Sejarah" class="card" >
+            <h1>Sejarah</h1>
+            <div class="img">
+                <img src="assets/img/history0.svg" alt="">
+                <img src="assets/img/history1.svg" alt="">
+            </div>
+            <p>
+                Jauh sebelum adanya kerajaan-kerajaan ditanah jawa. Diujung sebelah utara pulau Jawa sudah ada sekelompok penduduk yang diyakini orang-orang itu berasal dari daerah Yunnan Selatan yang kala itu melakukan migrasi ke arah selatan. Jepara saat itu masih terpisah oleh selat Juwana.
+            </p>
+            <br>
+            <p>
+                Asal nama Jepara berasal dari perkataan Ujung Para, Ujung Mara dan Jumpara yang kemudian menjadi Jepara, yang berarti sebuah tempat pemukiman para pedagang yang berniaga ke berbagai daerah. Menurut buku “Sejarah Baru Dinasti Tang (618-906 M)” mencatat bahwa pada tahun 674 M seorang musafir Tionghoa bernama I-Tsing pernah mengunjungi negeri Holing atau Kaling atau Kalingga yang juga disebut Jawa atau Japa dan diyakini berlokasi di Keling, kawasan timur Jepara sekarang ini, serta dipimpin oleh seorang raja wanita bernama Ratu Shima yang dikenal sangat tegas.
+            </p>
+            <br>
+            <p>
+                Menurut seorang penulis Portugis bernama Tome Pires dalam bukunya “Suma Oriental”, Jepara baru dikenal pada abad ke-XV (1470 M) sebagai bandar perdagangan yang kecil yang baru dihuni oleh 90-100 orang dan dipimpin oleh Aryo Timur dan berada dibawah pemerintahan Demak. Kemudian Aryo Timur digantikan oleh putranya yang bernama Pati Unus (1507-1521). Pati Unus mencoba untuk membangun Jepara menjadi kota niaga.
+            </p>
+        </article>
+        <article id="FaktaUnik" class="FaktaUnik" >
+            <h1>Fakta Unik</h1>
+            <div class="conten">
+                <section>
+                    <div class="Fakta card">
+                        <h1>Bumi Kartini</h1>
+                        <img src="assets/img/FaktaUnik1.svg" alt="">
+                        <p>
+                            RA Kartini merupakan anak dari Bupati Jepara yang bernama Raden Mas Sosroningrat dan ibu bernama M.A. Ngasirah.
+                        </p>
+                    </div>
+                    <div class="Fakta card">
+                        <h1>Karimun Jawa</h1>
+                        <img src="assets/img/FaktaUnik2.svg" alt="">
+                        <p>Wilayah Kabupaten Jepara tak hanya di Pulau Jawa namun juga meliputi Kepulauan Karimunjawa. Lokasinya yang berada di Laut Jawa menyebabkan sebagian besar wilayah perairan Jepara dilindungi dalam Cagar Alam Laut Karimunjawa.</p>
+                    </div>
+                </section>
+                <section>
+                    <div class="Fakta card">
+                        <h1>Furniture Kualitas Ekspor</h1>
+                        <img src="assets/img/FaktaUnik4.svg" alt="">
+                        <p>Jepara dikenal sebagai daerah dengan nilai ekspor bahan baku mebel dan furniture cukup tinggi. Angka ekspor dari Jepara tahun 2020 mencapai 177,03 juta dolar AS dengan volume ekspor mencapai 53,65 juta kg.</p>
+                    </div>
+                    <div class="Fakta card">
+                        <h1>Ukir Kelas Dunia</h1>
+                        <img src="assets/img/FaktaUnik3.svg" alt="">
+                        <p>Keberadaan seni ukir di Jepara ini memiliki sejarah panjang karena kemampuan mengukir ini diturunkan dari generasi ke generasi. Legenda tentang pengukir Jepara disebut bermula saat zaman kekuasaan Raja Brawijaya di Kerajaan Majapahit yang memanggil Prabangkara untuk melukis istrinya tanpa berbusana sebagai wujud cinta.</p>
+                    </div>
+                </section>
+            </div>
+        </article>
+        <article id="Wisata" class="Wisata">
+            <h1>Wisata</h1>
+            <div class="slider">
+                <div class="cover">
+                    <a class="prev" onClick="prevWisata(-1)">&#10094;</a>
+                    <div class="conten">
+                        <div class="wisataSlide fade card">
+                            <h3>Pulau Panjang</h3>
+                            <img src="assets/img/PulauPanjang1.svg" alt="">
+                            <img src="assets/img/PulauPanjang2.svg" alt="">         
+                            <img src="assets/img/PulauPanjang3.svg" alt="">
+                            <img src="assets/img/PulauPanjang4.svg" alt="">
+                            <p>
+                                Deburan ombak yang tenang turut mengantar pengunjung menuju ke Pulau Panjang. Semakin mendekati pulau kecil ini, air laut tampak semakin biru dan jernih. Bahkan, pengunjung dapat menyaksikan batuan karang serta ikan warna – warni yang ada di dalam perairan. Begitu jernih hingga dapat disaksikan hanya dari atas dermaga saja.
+                            </p>
+                            <p>
+                                Pulau ini begitu asri, dengan pepohonan yang sangat rimbun. Di sini juga telah dibangun jalan setapak dari paving, sehingga pengunjung dapat berjalan dengan nyaman. Tampak bangunan toilet serta mushola yang tampak rapi dan terawat. Seolah pulau kecil ini memiliki segala yang dibutuhkan wisatawan.
+                            </p>
+                            <p>
+                                Suasana wisatawan begitu terasa di pulau ini, meskipun tidak terdapat perumahan penduduk. Warung – warung kecil yang menyediakan makanan serta minuman, dan warung yang menjual aksesoris. Memenuhi kanan dan kiri jalanan setelah gapura masuk di objek wisata ini. Para penjual begitu antusias menawarkan dagangannya kepada para wisatawan.
+                            </p>
+                        </div>
+                        <div class="wisataSlide fade card">
+                            <h3>Taman Nasional Karimunjawa</h3>
+                            <img src="assets/img/karimunjawa1.svg" alt="">
+                            <img src="assets/img/karimunjawa2.svg" alt="">         
+                            <img src="assets/img/karimunjawa3.svg" alt="">
+                            <img src="assets/img/karimunjawa4.svg" alt="">
+                            <p>
+                                Wisata Jepara yang pertama adalah Taman Nasional Karimunjawa.
+                                Tempat wisata ini sangat populer, tidak hanya di kalangan wisatawan lokal, tapi juga di kalangan wisatawan asing.
+                                Tempat ini merupakan kumpulan dari pulau-pulau kecil yang jumlahnya bisa mencapai 20-an pulau.
+                            </p>
+                            <p>
+                                Saat berkunjung ke Taman Karimunjawa, Moms bisa melakukan banyak kegiatan air, mulai dari snorkeling, diving, berenang, dan lain ssbagainya
+                                Di dalam pulau-pulau yang ada di Taman Karimunjawa juga ada hutan mangrove yang bisa Moms kunjungi.
+                            </p>
+                        </div>
+                        <div class="wisataSlide fade card">
+                            <h3>Pantai Punuk Sapi</h3>
+                            <img src="assets/img/PunukSapi1.svg" alt="">
+                            <img src="assets/img/PunukSapi2.svg" alt="">         
+                            <img src="assets/img/PunukSapi3.svg" alt="">
+                            <img src="assets/img/PunukSapi4.svg" alt="">
+                            <p>
+                                Pantai lainnya yang ada di Jepara adalah Pantai Punuk Sapi. Wisata Jepara ini punya nama unik karena bentuknya dari atas mirip dengan punuk sapi.
+                                Jadi, di sekitar pantai terdapat gundukan tanah atau seperti bukit berwarna merah yang tampilannya memang mirip dengan punuk sapi.
+                            </p>
+                            <p>
+                                Keunikan lain dari wisata Jepara ini juga terlihat dari tampilan pasir yang ada di pinggir pantai karena pasirnya berwarna hitam, bukan putih seperti kebanyakan warna pasir pantai.
+                                Moms bisa menikmati pemandangan di pantai ini dengan cara tidur-tiduran di hammock yang disediakan oleh pihak pengelola.     
+                            </p>
+                            <p>
+                                Tak hanya hammock, di sini juga ada ayunan yang bisa digunakan untuk bersantai sambil menikmati pemandangan pantai.
+                            </p>
+                        </div>
+                        <div class="wisataSlide fade card">
+                            <h3>Bukit Bejagan</h3>
+                            <img src="assets/img/BukitBejangan1.svg" alt="">
+                            <img src="assets/img/BukitBejangan2.svg" alt="">         
+                            <img src="assets/img/BukitBejangan3.svg" alt="">
+                            <img src="assets/img/BukitBejangan4.svg" alt="">
+                            <p>
+                                Wisata Jepara yang terakhir adalah wisata Bukit Bejagan yang menjadi wisata alam dengan pemandangan hijau asri sehingga cocok untuk melepas stres.
+                                Untuk sampai ke atas bukit, pastinya Moms harus mendaki terlebih dahulu sehingga sebaiknya persiapkan stamina yang bagus.
+                                Namun, lelahnya mendaki akan terbayarkan dengan pemandangan indah hijau pepohonan dan gunung yang ada di sekitarnya.
+                            </p>
+                            <p>
+                                Di atas Bukit Bejagan ada rumah di atas pohon yang bisa digunakan sebagai gardu pandang dan spot berfoto yang kece.
+                                Lokasi Bukit Bejagan terdapat di Desa Wisata Tempur. Jadi selain bisa menikmati pemandangan dari atas bukit, Moms bisa menikmati suasana persawahan yang indah.
+                            </p>
+                        </div>
+                        
+                    </div>
+                    <a class="next" onClick="nextWisata(1)">&#10095;</a> 
+                </div>
+                
+                <div class="page">
+                    <span class="dot" onClick="dotslide(1)"></span>
+                    <span class="dot" onClick="dotslide(2)"></span>
+                    <span class="dot" onClick="dotslide(3)"></span>
+                    <span class="dot" onClick="dotslide(4)"></span>
+                </div>
+            </div>
+        </article>
+        <aside>
+            <article id="Profil" class="FaktaUnik Profil">
+                <h1>Profile</h1>
+                <img src="assets/img/FotoProfil.svg" class="card" alt="">
+                <h3>Muhammad Haris Al Fikri</h3>
+                <h3>Kabupaten Jepara, Jawa Tengah</h3>
+                <h3>"jangan hidup di dunia tapi hidupilah dunia"</h3>
+            </article>
+        </aside>
+    </main>
+    <footer>
+        <p>Copy Right by Muhammad Haris Al Fikri &#169; Mei 2022  </p>
+    </footer>
+    <script src="assets/slide.js"></script>
+</body>
+</html>
